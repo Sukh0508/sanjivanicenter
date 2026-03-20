@@ -1,0 +1,26 @@
+.full-width-header .rs-header .menu-area .logo-area {
+    position: absolute;
+    top: -87px;
+    padding: 4%;
+    BACKGROUND: #fff;
+    border: 6px solid #bfd851;
+    border-top: 0;
+    box-shadow: 1px 1px 20px 7px #cccc;
+    /* border-radius: inherit; */
+    left: 0;
+}
+.full-width-header .rs-header .menu-area .logo-area img {
+    max-height: 128px;
+    margin: 0;
+    transition: all 0.3s ease 0s !important;
+}
+.full-width-header .rs-header.homestyle.home3style .rs-topbar-part {
+    background: #bfd851;
+}
+.full-width-header .rs-topbar-part {
+    
+    padding: 0px 0;
+}
+.full-width-header .rs-header.homestyle.home3style .menu-area .rs-menu.small-width .nav-menu li a {
+    padding: 34px 0;
+}

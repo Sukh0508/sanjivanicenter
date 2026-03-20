@@ -1,0 +1,243 @@
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active .title{
+    color:#000;
+}
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"],
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel:hover [class*="owl-"],
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"],
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel:hover [class*="owl-"],
+.rs-happy-patients-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"],
+.rs-happy-patients-part .rs-carousel.owl-carousel:hover [class*="owl-"],
+.rs-partner-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"],
+.rs-partner-part .rs-carousel.owl-carousel:hover [class*="owl-"] {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev{
+    left: 15px;
+}
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next{
+    right: 15px;
+}
+
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev,
+.rs-happy-patients-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev,
+.rs-partner-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev{
+    /* left: -50px; */
+}
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next,
+.rs-happy-patients-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next,
+.rs-partner-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next{
+    /* right: -50px; */
+}
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"],
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"],
+.rs-happy-patients-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"],
+.rs-partner-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"] {
+    background: #00000073 !important;
+    color: #fff;
+}
+.sec-title .title-small{
+    color: #e86038;
+}
+.sec-title .desc.left-line.secondary:after {
+    background: #e86038;
+}
+.sec-title .desc.left-line:after{
+    height: 3px;
+}
+.sec-title .desc.center-line:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    z-index: 1;
+    left: 47%;
+    top: 14px;
+    background: #e86038;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+.full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu .nav-menu .sub-menu li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #62437e;
+    position:relative;
+}
+@media only screen and (max-width:991px){
+.full-width-header.personal-head .rs-header {
+    background: #ffffff;
+}
+.full-width-header .rs-header .menu-area .main-menu .mobile-logo-part img {
+    max-height: 89px;
+    padding: 1% 0;
+}
+.rs-menu-toggle{
+    height: 100px;
+}
+.rs-menu-toggle i {
+    background: #6f4b98;
+    padding: 1.5% 2%;
+    border-radius: 5px;
+}
+.nav-menu > .menu-item-has-children > span.rs-menu-parent, .nav-menu .rs-mega-menu > span.rs-menu-parent {
+    padding: 0 23px;
+    height: 56px;
+    line-height: 62px;
+    background: #7a599c;
+    color: #fff;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu{
+    background: #715292;
+}
+.hide-large{
+    display:block !important;
+}
+.rs-slider.home-slider .single-slide{
+    height: 550px !important;
+}
+.rs-slider.home-slider .single-slide .content-part .tags-part.wh .desc-part{
+    color:#fff;
+    font-size: 16px;
+}
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev,
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-prev,
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev,
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-prev,
+.rs-happy-patients-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev,
+.rs-happy-patients-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-prev,
+.rs-partner-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-prev,
+.rs-partner-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-prev {
+    left: 15px;
+}
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next,
+.rs-inner-blog-part .rs-team-inner-part-find-doctor-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-next,
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next,
+.rs-meet-with-doctor-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-next,
+.rs-happy-patients-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next,
+.rs-happy-patients-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-next,
+.rs-partner-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"].owl-next,
+.rs-partner-part .rs-carousel.owl-carousel:hover [class*="owl-"] .owl-next {
+    right: 15px;
+}
+
+.rs-happy-patients-part .rs-carousel.owl-carousel .owl-nav [class*="owl-"]
+{
+    top: 20%;
+}
+.rs-portfolio-Detail .col2-list li{
+    width:100%;
+}
+.footer-section {
+    max-width: 100%;
+}
+ .rs-contact .contact-wrap .contact-address {
+    background: #ffffff;
+    align-items: normal;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    padding:20px;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu li a{
+    border-color: #ffffff36;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area {
+    margin-top: -225px;
+}
+.rs-why-choose-us .why-choose-top{
+    padding-bottom: 255px !important;
+}
+.breadcrumbs-title{
+    margin:20px 0;
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li a, 
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li, 
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li a:hover{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 0px;
+}
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width:991px){
+    .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu li a{
+        padding: 14px 0 !important;
+    }
+    .full-width-header .rs-header .menu-area .main-menu .rs-menu .sub-menu li a{
+        padding: 10px 15px !important;
+    }
+    .logo-part{
+        top: -66px;
+        left: -25px;
+    }
+    .rs-toolbar-part .logo-part img {
+        max-height: 100px;
+    }
+}
+
+@media only screen and (min-width:991px){
+    .rs-slider.home-slider .single-slide{
+        height: 600px;
+    }
+    .full-width-header .rs-header .menu-area .main-menu{
+        float:right;
+    }
+    .rs-menu ul ul.right-float{
+        right: 0;
+    }
+}
+@media only screen and (max-width:767px){
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active{
+    background: #c9e249;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item .title{
+    color: #494949;
+    text-align: left;
+    padding-left: 20px;
+}
+.sec-title .desc.center-line:after{
+    left: 45%;
+}
+.rs-why-choose-us .why-choose-top .sec-title .title {
+    color: #62437e !important;
+}
+.rs-why-choose-us .why-choose-top .sec-title .desc.left-line.white:after{
+    background: #e86038;
+}
+.sec-title .desc.left-line::after {
+    display: block;
+}
+.sec-title .title{
+    padding-bottom: 15px;
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread {
+    padding: 70px 0 70px;
+}
+.rs-contact-part .home-appointment {
+    padding: 10px 15px;
+}
+.rs-contact-part .home-appointment.location-form {
+    padding: 50px 40px;
+}
+}
+
+@media only screen and (max-width:1200px){
+    .md-hide{
+        display:none !important;
+    }
+    .breadcrumbs-inner-part .breadcrumbs-inner-bread {
+        padding: 70px 0 70px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .sec-title .desc.center-line:after{
+        left: 40%;
+    }
+}
+
+.title.title2{
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: none;
+    font-weight: 600;
+}

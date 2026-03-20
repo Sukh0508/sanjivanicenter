@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	
+
+<title>Sanjivani Cancer Centre</title>
+	<meta name="description" content="">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/rsmenu-main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/rsmenu-transitions.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/rsanimations.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/rs-spaceing.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom-style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom-style-responsive.css">   
+	<SCRIPT language="JavaScript" src="assets/js/sanjivanicc_second-opiniont.js" type="text/javascript"></SCRIPT>
+	<?php
+		$mynumber= rand(673,62389);
+		//echo $mynumber."<br><br>";
+
+		$ilength=strlen($mynumber);
+		// echo $ilength."<br><br>";
+		for($i=0; $i<$ilength; $i++)
+		{
+		//print substr($mynumber, $i, 1).", ";
+		}
+		?>
+		<script type="text/javascript">
+		//defining variable and storinging in script
+		var randomnumber= <?= $mynumber?>;
+		// Validating
+	</script> 
+
+	<!-- Date And Time Picker -->
+	<script type="text/javascript" src="assets/datepicker/jquery-1.12.4.js"></script>
+	<link href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+	<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>		
+
+	<script type="text/javascript">
+	$(function () {		
+		$("#Appointment_Date").datepicker({
+			minDate: new Date(),
+			maxDate: new Date(new Date().setMonth(new Date().getMonth() + 2))
+		});		
+	});
+	</script>
+	<!-- //Date And Time Picker -->
+	<meta name="google-site-verification" content="IRnvP9eLFLreT7rsbK7l5bUA7mRWEe_SFKrf1KvxTjE" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKWZ03D3T0"></script>
+	
+
+<title>Sanjivani Cancer Centre</title>
+	
+
+<title>Sanjivani Cancer Centre</title>
+</head>
+<body>
+
+	<!--Full width header Start-->
+	<div class="full-width-header personal-head">
+		<div class="rs-topbar-part">
+			<div class="container">
+				<div class="row rs-vertical-middle">
+					<div class="col-lg-4"></div>
+					<div class="col-lg-8">
+						<div class="topbar-sl-share text-right">
+							<ul class="icon-part">
+								<li class="date-part"><a href="tel:+91-8779475032"><i class="flaticon-call"></i>&nbsp; +91-8779475032 &nbsp;</a></li>
+								<li style="margin-right:60px;" class="md-hide"></li>
+								<li class="date-part"><a href="enquiry.html"><i class="flaticon-email"></i>&nbsp; care@sanjivanicancercentre.com &nbsp;</a></li>
+								<li style="margin-right:60px;" class="md-hide"></li>
+								<li class="mobile-hide"><a href="https://www.facebook.com/sccmumbai" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li class="mobile-hide"><a href="https://www.youtube.com/channel/UCHxlhW-sxyLmqq4BX0JOt7w" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rs-toolbar-part">
+			<div class="container">
+				<div class="row rs-vertical-middle">
+					<div class="col-lg-3 col-sm-3 col-md-4">
+						<div class="logo-part">
+						<a href="index.html"><img src="https://sanjivanicancercentre.com/media/shop-167/sanjivani-cancer-centre/sanjivani-cancer-centre-5b45de.png" alt="logo" style="height: 100px; background: white; border-radius: 5px;"></a>
+						</div>
+					</div>
+					<div class="col-lg-9 col-sm-9 col-md-8 mobile-menu-area">
+						<ul class="rs-contact-info">
+							<li class="contact-part  no-border">
+								<a href="contact.html"><i class="flaticon-location"></i>
+									<span class="contact-info">
+										<span>1<sup>st</sup> Floor Rajesh CHS, Near Vandana <br>ST Stand, Naupada, Thane - 400602</span>
+									</span>
+								</a>
+							</li>
+							<!-- <li class="contact-part no-border success">
+								<a href="success-stories.html"><img src="images/stories.png" class="success-btn"></a>
+							</li> -->
+							<li class="contact-part no-border">
+								<span class="contact-info"><a class="readon header-btn" href="appointment.html">Book Appointment</a></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--toolbar-part-end-->
+		<!--Header Start-->
+		<header id="rs-header" class="rs-header">
+			<div class="menu-area menu-sticky">
+				<div class="container-fluid">
+					<div class="row rs-vertical-middle">
+						<div class="col-lg-12">
+							<div class="main-menu">
+								<div class="mobile-logo-part">
+									<img src="https://sanjivanicancercentre.com/media/shop-167/sanjivani-cancer-centre/sanjivani-cancer-centre-5b45de.png" style="background: white; border-radius: 5px;" alt="logo">
+								</div>
+								<div class="mobile-menu">
+									<a class="rs-menu-toggle"><i class="fa fa-bars"></i></a>
+								</div>
+								<nav class="rs-menu left-align-menu small-width">
+									<ul class="nav-menu">
+										<li class="current-menu-item current_page_item"><a href="index.html">Home</a></li>
+										<li class="menu-item-has-children"> <a href="about.html">About</a>
+											<ul class="sub-menu">
+												<li><a href="about.html">About Us</a></li>
+												<li><a href="doctors.html">Doctors Team</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="oncologist.html">Cancer Surgeries</a>
+											<ul class="sub-menu">
+												<li><a href="laparoscopic-cancer-surgery.html">Laparoscopic Cancer Surgery</a></li>
+												<li><a href="robotic-cancer-surgery.html">Robotic Cancer Surgery</a></li>
+												<li><a href="head-and-neck-reconstructive-surgery.html">Head & Neck	Reconstructive Surgery</a></li>
+												<li><a href="oncoplastic-breast-surgery.html">Oncoplastic Breast	Surgery</a></li>
+												<li><a href="heated-intraperitoneal-chemotherapy.html">Heated	Intraperitoneal Chemotherapy</a></li>
+												<li><a href="endoscopy.html">Endoscopy</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="oncologist-treatments.html">Cancer	Treatments</a>
+											<ul class="sub-menu">
+												<li><a href="chemotherapy-treatment.html">Chemotherapy Treatment</a></li>
+												<li><a href="radio-therapy-treatment.html">Radio Therapy Treatment</a></li>
+												<li class="menu-item-has-children"><a href="gastro-intestinal-cancer-treatment.html">Gastro intestinal	Cancer Treatment</a>
+													<ul class="sub-menu">
+														<li><a href="stomach-cancer-treatment.html">Stomach Cancer</a></li>
+														<li><a href="esophageal-cancer-treatment.html">Esophageal Cancer</a></li>
+														<li><a href="small-intestine-cancer-treatment.html">Small intestine Cancer</a></li>
+														<li><a href="colon-cancer-treatment.html">Colon Cancer</a></li>
+														<li><a href="rectum-cancer-treatment.html">Rectum Cancer</a></li>
+														<li><a href="anal-canal-cancer-treatment.html">Anal Canal Cancer</a></li>
+														<li><a href="pancreatic-cancer-treatment.html">Pancreatic Cancer</a></li>
+														<li><a href="gall-bladder-cancer-treatment.html">Gall Bladder Cancer</a></li>
+														<li><a href="liver-cancer-treatment.html">Liver Cancer</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-has-children"><a href="gynaecological-treatment.html">Gynaecological	Treatment</a>
+													<ul class="sub-menu">
+														<li><a href="ovarian-cancer-treatment.html">Ovarian Cancer</a></li>
+														<li><a href="cervical-cancer-treatment.html">Cervical Cancer</a></li>
+														<li><a href="uterine-cancer-treatment.html">Uterine Cancer</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-has-children"><a href="chest-related-treatment.html">Chest Related Treatment</a>
+													<ul class="sub-menu">
+														<li><a href="lung-cancer-treatment.html">Lung Cancer</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-has-children"><a href="urological-treatment.html">Urological Treatment</a>
+													<ul class="sub-menu">
+														<li><a href="kidney-cancer-treatment.html">Kidney Cancer</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-has-children"><a href="other-cancer-treatment.html">Other Cancer Treatment</a>
+													<ul class="sub-menu">
+														<li><a href="thyroid-cancer-treatment.html">Thyroid Cancer</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="gallery.html">Gallery</a>
+											<ul class="sub-menu">
+												<li><a href="surgeries-videos.html">Surgeries Videos</a></li>
+												<li><a href="doctors-videos.html">Doctors Videos</a></li>
+												<li><a href="events.html">Events</a></li>
+												<li><a href="medical-camps.html">Medical Camps</a></li>
+												<li><a href="press-release.html">Press Release</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="testimonials.html">Testimomials</a>
+											<ul class="sub-menu">
+												<li><a href="patient-testimonials.html">Patient testimonials</a></li>
+												<li><a href="testimonial-videos.html">Testimonial Videos</a></li>
+											</ul>
+										</li>
+										<li><a href="blogs.html">Blogs</a></li>
+										<li class="hide-large"><a href="success-stories.html">Success Stories</a></li>
+										<li class="hide-large"><a href="appointment.html">Book Appointment</a></li>
+										<li><a href="contact.html">Contact Us</a></li>
+										<li><a href="enquiry.html">Enquiry</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<!--Full width header End-->
+
+	<!--breadcrumbs-inner-part start-->
+	<div class="breadcrumbs-inner-part img2">
+		<div class="container">
+			<div class="breadcrumbs-inner-bread text-center">
+				<h1 class="title-part">Book Appointment</h1>
+				<div class="sec-title text-center pb-40">
+					<div class="desc center-line secondary">						
+					</div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<!--breadcrumbs-inner-part start-->
+
+	<!--rs-contact-part start-->
+	<div class="rs-contact-part pt-100 pb-60 md-pt-72 md-pb-80 bg14">
+		<div class="container">
+			<div class="content-part text-center">
+				<div class="sec-title mb-30">
+					<h4 class="title pb-15"> Get Free Second Opinion For Cancer Treatment </h4>
+				</div>
+				<div class="home-appointment">
+					<div id="form-messages"></div>
+					
+					<form id="contact-form" action="https://www.midsupport.com/php/TestResult_attach.html" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
+							<input name="redirect" type="hidden">
+							<input name="recipient" type="hidden" value="care@sanjivanicancercentre.com">
+							<input name="subject" type="hidden" value="Free Second Opinion for Cancer ">
+							<div class="row">
+
+							<div class="col-lg-12 mb-20 col-xs-12">
+								<input class="from-control" type="text" id="contact_person" name="contact_person" placeholder="Your Name*">
+							</div>
+							<div class="col-lg-12 mb-20">
+								<textarea class="from-control" id="address" name="Address" placeholder="Address *"></textarea>
+								
+							</div>
+
+							<div class="col-lg-6 mb-20 col-xs-12">
+								<input class="from-control" type="text" id="telNo" name="telNo" placeholder="Phone number*">
+							</div>
+
+							<div class="col-lg-6 mb-20 col-xs-12">
+								<input class="from-control" type="email" id="from" name="from" placeholder="E-mail*">
+							</div>
+					
+							<div class="col-lg-6 mb-20 col-xs-12">
+								<input class="from-control" type="text" id="diagnosis" name="Diagnosis" placeholder="Diagnosis of Cancer type*">
+							</div>
+							<div class="col-lg-6 mb-20 col-xs-12">
+								<input class="from-control" type="text" id="reference" name="Reference" placeholder="Reference Doctor *">
+							</div>
+							
+							<div class="col-lg-6 mb-20 col-xs-12">
+								<input class="from-control" name="Appointment_Date" type="text" value="" id="Appointment_Date"  placeholder="Appointment Date*" readonly>
+							</div>
+
+							<div class="col-lg-6 mb-20 col-xs-12">
+							<input class="from-control" id="requirement_details" name="requirement_details" placeholder="Your Message ...">
+							</div>
+
+							<div class="col-lg-12 mb-20 col-xs-12">
+
+						<label>Patient's reports</label>
+						<input type="file" name="file" id="file" onchange="return validateFileExtension(this)" >
+
+							</div>
+
+
+							<div class="col-lg-12 mb-45">
+								<p>Enter Verfication Code : 
+									<?php
+									for($i=0; $i<$ilength; $i++)
+									{
+									$ipic= substr($mynumber, $i, 1);
+									$sFilePath = "";
+									//if (file_exists(".$ipic.".gif"))
+									$sFilePath = $ipic.".gif";
+									?>
+									<img src="https://mipl.co.in/nb/<?=$sFilePath ?>" />
+									<?php
+									}
+									?>
+									<input class="from-control" type="text" name="q" style="width:200px;">
+								</p>
+							</div>
+							<div class="col-lg-12">
+								<div class="submit-btn text-center">
+									<button name="submit" type="submit" class="readon">Submit</button> 
+								</div>
+							</div>
+						</div>    
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--rs-contact-part end-->
+
+
+    <!--rs-footer-inner start-->
+    <div class="rs-footer-inner pb-20 md-pb-20">
+        <div class="container">
+            <div class="row pb-20">
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer-section pt-100 md-pt-80">
+                        <div class="footer-title"><h3>Sanjivani Cancer Centre</h3></div>
+                        <div class="widget-contact">
+                            <ul>
+                                <li><i class="fa fa-globe"></i>1<sup>st</sup>Floor Rajesh CHS, Near Vandana ST Stand,<br> Naupada, Thane - 400602</li>
+                                <li><i class="fa fa-envelope"></i><a href="enquiry.html">care@sanjivanicancercentre.com</a></li>
+								<li><i class="fa fa-mobile"></i><a href="contact.html">+91-8779475032 / 8420030304</a></li>
+                                <li><i class="fa fa-phone"></i><a href="contact.html">022-25407474</a> </li>
+                                <li><i class="fa fa-clock-o"></i>07:00 AM - 10:00 PM</li>
+                            </ul>
+						</div>
+						<br/>
+						<div class="footer-title mb-10"><h3>Other OPD centres</h3></div>
+						<div class="widget-contact col2-list">
+                            <ul>
+                                <li><i class="fa fa-globe"></i><a href="contact.html">Virar</a></li>
+								<li><i class="fa fa-globe"></i><a href="contact.html">Mira Road</a></li>
+                                <li><i class="fa fa-globe"></i><a href="contact.html">Vashi</a></li>
+								<li><i class="fa fa-globe"></i><a href="contact.html">Malad</a></li>
+                            </ul>
+						</div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <div class="footer-section pt-100 md-pt-35">
+                        <div class="footer-title"><h3>Quick Links</h3></div>
+                        <div class="openingfoot">
+                            <ul>
+                                <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="index.html">Home</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="about.html">About Us</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="gallery.html">Gallery</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="patient-testimonials.html">Testimonials</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="oncologist.html">Oncology Surgeries</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="blogs.html">Blogs</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="success-stories.html">Success Stories</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="surgeries-videos.html">Surgeries Videos</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="contact.html">Contact Us</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="enquiry.html">Enquiry</a></li>
+							</ul>
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="footer-section md-pl-0 pt-100 md-pt-45">
+                        <div class="footer-title"><h3>Surgeries &amp; Treatments</h3></div>
+                        <div class="openingfoot">
+                            <ul>
+                                <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="robotic-cancer-surgery.html">Robotic Cancer Surgery</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="laparoscopic-cancer-surgery.html">Laparoscopic Cancer Surgery</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="head-and-neck-reconstructive-surgery.html">Head & Neck Reconstructive Surgery</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="oncoplastic-breast-surgery.html">Oncoplastic Breast Surgery</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="heated-intraperitoneal-chemotherapy.html">Heated Intraperitoneal Chemotherapy</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="endoscopy.html">Endoscopy</a></li>
+                                <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="chemotherapy-treatment.html">Chemotherapy Treatment</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="radio-therapy-treatment.html">Radio Therapy Treatment</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="gastro-intestinal-cancer-treatment.html">Gastro intestinal Cancer Treatment</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="gynaecological-treatment.html">Gynaecological Treatment</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="chest-related-treatment.html">Chest Related Treatment</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="urological-treatment.html">Urological Treatment</a></li>
+								<li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="other-cancer-treatment.html">Other Cancer Treatment</a></li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="footer-section pt-100 md-pt-35">
+                        <div class="footer-title"><h3>Reach Us</h3></div>
+                        <div class="widget-desc mb-10">
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="350px" src="https://maps.google.com/maps?q=Sanjivani%20Cancer%20Care%20Thane&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" aria-label="Sanjivani Cancer Centre Thane"></iframe>
+                        </div>                        
+                        <div class="social-icon">
+                            <ul>
+                                <li><a href="https://www.facebook.com/sccmumbai" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCHxlhW-sxyLmqq4BX0JOt7w"  target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>		
+    </div>
+	<!--rs-footer-inner end-->
+
+	<!--rs-partner-part start-->
+	<div class="rs-footer-inner rs-partner-part pt-40 pb-80" style="background: #333;">
+		<div class="container">
+			<div class="footer-section">
+				<div class="rs-carousel owl-carousel" data-loop="true" data-items="4" data-margin="30" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="true" data-mobile-device-dots="false" data-ipad-device="3" data-ipad-device-nav="true" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="true" data-ipad-device-dots2="false" data-md-device="4" data-md-device-nav="true" data-md-device-dots="false">
+					<div class="item">
+						<div class="img-part">
+							<div class="footer-title mb-10"><h3>Virar</h3></div>
+							<div class="widget-contact">
+								<ul>
+									<li><i class="fa fa-globe"></i>Kalpataru Hospital,<br>First Floor, Ashoka Shopping Centre,<br>Near Jakat Naka Signal,<br> Virar West.</li>
+									<li><i class="fa fa-envelope"></i><a href="enquiry.html">care@sanjivanicancercentre.com</a></li>
+									<li><i class="fa fa-phone"></i>+91-8779475032 / 8420030304 / 022-25407474 </li>
+									<li><i class="fa fa-calendar"></i>TUE & SAT</li>
+									<li><i class="fa fa-clock-o"></i>10:00 AM - 12:00 PM</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img-part">
+							<div class="footer-title mb-10"><h3>Mira Road</h3></div>
+							<div class="widget-contact">
+ 								<ul>
+									<li><i class="fa fa-globe"></i>Dhanwantari Manav Kalyan Hospital,<br>Ganesh Tower, B Patil Road, <br>Venkateshwar Nagar, Bhayander East,<br>Mira Bhayender - 401105.</li>
+									<li><i class="fa fa-envelope"></i><a href="enquiry.html">care@sanjivanicancercentre.com</a></li>
+									<li><i class="fa fa-phone"></i> +91-8779475032 / 8420030304 / 022-25407474 </li>
+									<li><i class="fa fa-calendar"></i>Tue, Thur, Sat  </li>
+									<li><i class="fa fa-clock-o"></i> 3 pm to 5 pm</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img-part">
+							<div class="footer-title mb-10"><h3>Vashi</h3></div>
+							<div class="widget-contact">
+ 								<ul>
+									<li><i class="fa fa-globe"></i>Vashi Hospital and ICU 1 St Floor, <br>Above Babubhai Jagjivandas. <br>Devavrata Premises, Sector 17, <br>Vashi, Navi Mumbai - 400703.</li>
+									<li><i class="fa fa-envelope"></i><a href="enquiry.html">care@sanjivanicancercentre.com</a></li>
+									<li><i class="fa fa-phone"></i> +91-8779475032 / 8420030304 / 022-25407474 </li>
+									<li><i class="fa fa-calendar"></i>Tue, Thur, Sat  </li>
+									<li><i class="fa fa-clock-o"></i> 3 pm to 5 pm</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img-part">
+							<div class="footer-title mb-10"><h3>Malad</h3></div>
+							<div class="widget-contact">
+ 								<ul>
+									<li><i class="fa fa-globe"></i>DNA hospital, Rani Sati Rd, <br>Malad, Tapovan Housing Complex, <br>Pathan Wadi, Malad East, Mumbai 400097.</li>
+									<li><i class="fa fa-envelope"></i><a href="enquiry.html">care@sanjivanicancercentre.com</a></li>
+									<li><i class="fa fa-phone"></i> +91-8779475032 / 8420030304 / 022-25407474 </li>
+									<li><i class="fa fa-calendar"></i>Tue, Thur, Sat  </li>
+									<li><i class="fa fa-clock-o"></i> 3 pm to 5 pm</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--rs-partner-part end-->
+
+	<!--rs-footer-bottom start-->
+	<div class="rs-footer-bottom part">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copy-right-part text-center">
+<p>Maintained by : <a href="https://referindia.in" target="_blank">ReferIndia</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--rs-footer-bottom end-->
+		
+	<!-- Scrool to Top Start -->
+	<div id="scrollUp">
+	    <i class="fa fa-angle-up"></i>
+	</div> 
+	<!-- Scrool to Top End -->
+
+	<!-- Search Modal Start -->
+	<div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
+	    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	      <span class="flaticon-cross"></span>
+	    </button>
+	    <div class="modal-dialog modal-dialog-centered">
+	        <div class="modal-content">
+	            <div class="search-block clearfix">
+	                <form>
+	                    <div class="form-group">
+	                        <input class="form-control" placeholder="Search Here.." type="text">
+	                    </div>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<!-- Search Modal End -->		
+
+	<script src="assets/js/modernizr-2.8.3.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/rsmenu-main.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<!-- Date And Time Picker -->
+	<script type="text/javascript" src="assets/datepicker/bootstrap-datetimepicker.min.js"></script>
+	<!-- // Date And Time Picker -->
+
+	<script type="text/javascript">
+		var LHCChatOptions = {};
+		LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500};
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		var refferer = (document.referrer) ? encodeURIComponent(document.referrer) : '';
+		var location  = (document.location) ? encodeURIComponent(document.location) : '';
+		po.src = '//chat.sanjivanicancercare.com/support/index.html/chat/getstatus/(click)/internal/(position)/bottom_right/(hide_offline)/yes/(check_operator_messages)/yes/(top)/350/(units)/pixels/(leaveamessage)/yes/(department)/1/(disable_pro_active)/yes?r='+refferer+'&l='+location;
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+</body>
+</html>

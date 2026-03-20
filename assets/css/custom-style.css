@@ -1,0 +1,886 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom:15px;
+}
+.mbr-55{
+    margin-bottom:-55px;
+}
+.mt-2{
+    margin-top:2%;
+}
+.logo-part{
+    position: absolute;
+    top: -78px;
+    padding: 7% 11%;
+    background: #fff;
+    /* border: 7px solid #c9e249; */
+    border-top: 0;
+    /* box-shadow: -1px -8px 14px 2px #62437e; */
+    border-radius: 100px;
+    left: -25px;
+}
+.full-width-header .rs-topbar-part {
+    background: #c1d84b;
+    background: #c9e249;
+    padding: 5px 0;
+}
+.success{
+    vertical-align: top; 
+    position: relative; 
+    width:155px;
+}
+.success-btn{
+    height:70px; position: absolute;
+								top: -8px;
+								left: 0px;
+}
+.rs-toolbar-part {
+    padding: 5px 0 10px;
+}
+.full-width-header.personal-head .rs-header {
+    background: #62437e;
+}
+.rs-toolbar-part .logo-part img {
+    max-height: 135px;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu.small-width .nav-menu li a {
+    padding: 15px 8px;
+}
+
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li,
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li.date-part a,
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li.date-part a i{
+    font-weight: 600;
+    opacity:1;
+    color: #62437e;
+}
+.rs-toolbar-part .rs-contact-info .contact-part i:before{
+    color: #ed6341;
+    font-weight: 600;
+}
+.header-btn {
+    border-radius: 5px;
+    padding: 10px 40px 10px 20px;
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid #021b79;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.full-width-header.personal-head .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a{
+    color: #c9e249;
+    border-bottom: 3px solid #c9e249;
+}
+.full-width-header.personal-head .rs-header .menu-area .main-menu .rs-menu .nav-menu > li > a:hover {
+    color: #c9e249;
+    border-bottom: 3px solid #c9e249;
+}
+.hide-large{
+    display:none !important;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu .sub-menu{
+    box-shadow: 6px 7px 12px 2px rgb(72 70 70 / 15%);
+}
+.rs-expertise-part.part2 .rs-best-medical-part .img-part .play-btn .pulse-btn{
+    background: #c9e249;
+}
+
+.rs-expertise-part.part2 .rs-best-medical-part .img-part .play-btn .pulse-btn:before{
+    border: 2px solid #62437e;
+}
+.sec-title .title{
+    color: #62437e;
+   
+}
+.stylelisting .chevron-right-icon li:after{
+   color:  #62437e;
+   color: #e86038;
+}
+.bg1 {
+    background: url(../../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs {
+    background: rgb(98 67 126 / 52%);
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active {
+    background: #c9e249;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item:hover {
+    background: rgb(255 255 255 / 80%);
+}
+.rs-why-choose-us .why-choose-bottom .tab-area {
+    margin-top: -180px;
+}
+.title{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+.bg3 {
+    background: url(../../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.rs-happy-patients-part.style2 .item {
+    background: rgb(66 14 113 / 69%);
+}
+.rs-partner-part .images-part {
+    background: #62437e;
+}
+.rs-footer-inner {
+    background: #39393a;
+}
+.rs-footer-bottom {
+    background: #715194;
+    padding: 10px 0;
+}
+.rs-partner-part .images-part {
+    background: #ffffff;
+}
+.sec-title .desc.center-line {
+    position: relative;
+    padding-left: 80px;
+}
+
+.out-space{
+    padding:10%;
+    background:#fff;
+}
+.owl-carousel.white-dots .owl-dots button.owl-dot {
+    border-color: #62437e;
+}
+.owl-carousel.white-dots .owl-dots button.owl-dot.active {
+    background: #62437e;
+}
+.highlight-title{
+    color: #e86038;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 8px;
+    font-family: 'Exo', sans-serif;
+}
+.rs-quality-services-part .item-services:after{
+    background: #c9e249;  
+      
+}
+.surgery-icon{
+    width:60px;
+}
+.surgery-icon.wh{
+    display:none;
+}
+.surgery-icon.cl{
+    display:inline-block;
+}
+
+.full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu .sub-menu li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #62437e;
+    position:relative;
+}
+.quote{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 35px;
+}
+.highlighted-box{
+    background-color: #f9f8ff; padding:5% 2%; display:block; float:none;
+}
+.highlighted-box li{
+    font-weight: 600 !important;
+    font-size:16px !important;
+}
+.rs-portfolio-Detail.part3 .side-part .Appointment-table-wrap .table-content tr td{
+    line-height: 25px;
+    PADDING:3px 18px;
+    color:#494949;
+   
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.rs-portfolio-Detail.part3 .side-part .Appointment-table-wrap .table-content tr td h5{
+    color:#fff;
+    margin-bottom: 0;
+    line-height: 15px;
+}
+.rs-portfolio-Detail.part3 .side-part .Appointment-table-wrap{
+    padding:30px 30px;
+}
+.rs-portfolio-Detail.part3 .side-part .Appointment-table-wrap hr{
+    border-top: 1px solid rgb(255 255 255 / 65%);
+}
+.text-black{
+    color:#494949 !important;
+}
+.rs-portfolio-Detail.part3 .Appointment-table-wrap .table-content{
+    background: #f9f8ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.clinic-location{
+    font-size: 17px;
+    color: #021b79;
+    font-family: 'Exo';
+    font-weight: 600 ;
+}
+.rs-portfolio-Detail.part3 .Appointment-table-wrap .table-content td .fa{
+    color:#62437e;
+}
+.rs-portfolio-Detail.part3 .Appointment-table-wrap .title-upper .title-part {
+    color: #692ba2;
+    font-size: 22px;
+}
+.rs-portfolio-Detail.part3 .Appointment-table-wrap .title-upper .title-part:after {
+  
+    background: #e86038;
+    height: 3px;
+}
+.rs-inner-medvill-faq-part .content-part .accordion .card .card-header .card-link{
+    text-transform: none;
+}
+.rs-footer-inner .footer-section .openingfoot li a:hover{
+    color:#ccc;
+}
+@media only screen and (min-width:1300px){
+.full-width-header .rs-header .menu-area .main-menu{
+    margin-right:30px;
+}
+}
+@media only screen and (min-width:769px){
+    .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu .dropdown-icon:before {
+        content: "\f054";
+        font-family: "FontAwesome";
+        position: absolute;
+        font-size: 10px;
+        font-weight: 400;
+        color: #62437e;
+        z-index: 9;
+        right: 0px;
+        top:10px;
+    }
+    
+}
+
+
+@media only screen and (min-width:768px){
+    .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu .sub-menu li a:after{
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 1px;
+        background-color: #279a4d;
+        bottom: 5px;
+        z-index: 9;
+        left: 30px;
+        transition: all 0.5s;
+    }
+    
+    .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu .sub-menu li a:hover:after{
+        width: 15%;
+    }
+    /* .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu .sub-menu li a:before {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        z-index: 0;
+        content: "\f111";
+        font-family: 'FontAwesome';
+        color: #62437e;
+        font-size: 5px;
+    } */
+    .rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active {
+        background: #ffffff;
+    }
+    .rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active i {
+        color:#4b1280;
+    }
+    .rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active .title {
+        color: #4b1280;
+    }
+    
+    .rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item:hover i {
+        color: #000;
+    }
+    .rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item:hover .title {
+        color: #000;
+    }
+    .rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item {
+        padding: 20px 12px 20px;
+    }
+.surgery-icon.wh{
+    display:inline-block;
+}
+.surgery-icon.cl{
+    display:none;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active .surgery-icon.cl,
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item:hover .surgery-icon.cl{
+    display:inline-block;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item.active .surgery-icon.wh,
+.rs-why-choose-us .why-choose-bottom .tab-area .nav-tabs li a.tab-item:hover .surgery-icon.wh{
+    display:none;
+}
+
+}
+
+
+.readon{
+    background: #62437e;
+    border-color: #62437e;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .tab-content .tab-pane.active {
+    animation: none !important;
+}
+.rs-why-choose-us .why-choose-bottom .tab-area .tab-content .tab-pane.active .img-part {
+    animation: slide-down 0.8s ease-out !important;
+}
+date::placeholder {
+    color: #b1b1b1;
+  opacity: 1;
+  }
+
+  .right_menu_togle.rs-appointment .appointment-form{
+    background: #ffffff00;
+    padding: 0;
+   
+    box-shadow:none;
+   
+  }
+  .right_menu_togle.rs-appointment .appointment-form .select-option select{
+    background: #ffffffbd;
+  }
+
+.col2-list li{
+  width: 50%;
+    float: left;
+    padding: 6px 22px 6px 22px !important;
+}
+.rs-footer-inner .footer-section .openingfoot li a{
+    padding: 0 0 16px 0;
+    font-size: 15px;
+    color: #ffffff;
+}
+.rs-footer-inner .footer-section .social-icon i:hover {
+    background: #c9e249;
+    color: #ffffff;
+}
+.rs-footer-inner .footer-section .social-icon i {
+    border: 1px solid #715194;
+    background: #715194;
+}
+.copy-right-part a{
+    color:#fff;
+}
+.rs-slider.home-slider .single-slide {
+    background: url(../../images/slider/slider1-new.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.rs-slider.home-slider .single-slide .content-part .tags-part .title-part h3{
+    color: #9fb338;
+}
+.rs-slider.home-slider .single-slide .content-part .tags-part .title-part h1{
+    color: #62437e; 
+}
+.rs-slider.home-slider .single-slide .content-part .tags-part .desc-part{
+    color:#000;
+}
+.rs-slider.home-slider .single-slide .content-part .tags-part.wh .title-part h3{
+    color: #fff;
+}
+.rs-slider.home-slider .single-slide .content-part .tags-part.wh .title-part h1{
+    color: #fff; 
+}
+.rs-slider.home-slider .single-slide .content-part .tags-part.wh .desc-part{
+    color:#fff;
+    font-size: 20px;
+}
+.rs-slider.home-slider .single-slide.slide2 {
+    background: url(../../images/slider/slider2-new.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rs-slider .owl-carousel .owl-nav [class*="owl-"].owl-next {
+    right: 15px;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.rs-slider .owl-carousel .owl-nav [class*="owl-"].owl-prev {
+    left: 15px;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+/* .owl-carousel .owl-nav [class*="owl-"].owl-next {
+    right: 15px;
+}
+.owl-carousel .owl-nav [class*="owl-"].owl-prev {
+    left: 15px;
+} */
+.owl-carousel .owl-nav [class*="owl-"]{
+    background: #8d8c8d73 !important;
+    color: #fffcfc !important;
+    border-radius: 0;
+}
+.owl-carousel .owl-nav:hover [class*="owl-"]{
+   
+    color: #fff !important;
+}
+
+.owl-carousel .owl-dots{
+    margin-top:0;
+}
+.owl-carousel .owl-dots button.owl-dot{
+    border: 2px solid #c9e249;
+}
+.owl-carousel .owl-dots button.owl-dot.active {
+    background: #c9e249;
+}
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li a i{
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li{
+    margin-right: 1px;
+}
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li a i.fa-facebook{background: #245dde !important;}
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li a i.fa-twitter{background: #2290de !important;}
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li a i.fa-youtube-play{background: #de2424 !important;}
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li a i.fa-youtube{background: #de2424 !important;}
+.full-width-header .rs-topbar-part .topbar-sl-share .icon-part li a i.fa-instagram{background: #de247d !important;}
+
+.rs-footer-inner .footer-section .social-icon i.fa-facebook{background: #245dde !important;}
+.rs-footer-inner .footer-section .social-icon i.fa-twitter{background: #2290de !important;}
+.rs-footer-inner .footer-section .social-icon i.fa-youtube-play{background: #de2424 !important;}
+.rs-footer-inner .footer-section .social-icon i.fa-youtube{background: #de2424 !important;}
+.rs-footer-inner .footer-section .social-icon i.fa-instagram{background: #de247d !important;}
+
+.rs-team-inner-part-find-doctor-part .fa-facebook{background: #245cde00 !important;}
+.rs-team-inner-part-find-doctor-part .fa-twitter{background: #2290de00 !important;}
+.rs-team-inner-part-find-doctor-part .fa-youtube-play{background: #de242400 !important;}
+.rs-team-inner-part-find-doctor-part .fa-youtube{background: #de242400 !important;}
+.rs-team-inner-part-find-doctor-part .fa-instagram{background: #de247e00 !important;}
+.rs-team-inner-part-find-doctor-part .fa-linkedin{background:#007ab700 !important;}
+.rs-team-inner-part-find-doctor-part .fa-skype{background:#00aef300 !important;}
+
+.rs-team-inner-part-find-doctor-part .fa-facebook:hover{background: #245cde !important;}
+.rs-team-inner-part-find-doctor-part .fa-twitter:hover{background: #2290de !important;}
+.rs-team-inner-part-find-doctor-part .fa-youtube-play:hover{background: #de2424 !important;}
+.rs-team-inner-part-find-doctor-part .fa-youtube:hover{background: #de2424 !important;}
+.rs-team-inner-part-find-doctor-part .fa-instagram:hover{background: #de247e !important;}
+.rs-team-inner-part-find-doctor-part .fa-linkedin:hover{background:#007ab7 !important;}
+.rs-team-inner-part-find-doctor-part .fa-skype:hover{background:#00aef3 !important;}
+
+.full-width-header .rs-header .right_menu_togle .canvas-contact .social li a i.fa-facebook{background: #245dde !important;}
+.full-width-header .rs-header .right_menu_togle .canvas-contact .social li a i.fa-youtube-play{background: #de2424 !important;}
+.full-width-header .rs-header .right_menu_togle .canvas-contact .social li a i.fa-youtube{background: #de2424 !important;}
+
+.pg-link{
+    font-size: 14px;
+    margin-top:30px;
+    color: #e86038;
+   
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread {
+    /* padding: 100px 0 60px; */
+    padding: 100px 0 20px;
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li a.no-sublink:after{
+    content:'';
+}
+.rs-inner-blog-part .widget-area{
+    padding-left:20px;
+    padding-right:20px;
+}
+.rs-portfolio-Detail .inner-content-part {
+    padding: 30px 20px;
+}
+.rs-portfolio-Detail .inner-content-part .title-inner .title{
+    color: #692ba2;
+    font-size: 22px;
+}
+.rs-portfolio-Detail .inner-content-part .title-inner .title:after{
+    background: #c9e249;
+    background: #e86038;
+    height: 3px;
+}
+.rs-portfolio-Detail .inner-content-part .Service-menu li a{
+    position: relative;
+    padding-left:15px;
+    transition: all 0.5s;
+}
+.rs-portfolio-Detail .inner-content-part .Service-menu li a:before {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: 0;
+        content: "\f0da";
+        font-family: 'FontAwesome';
+        color:#62437e;
+        font-size: 15px;
+        transition: all 0.5s;
+}
+.rs-portfolio-Detail.about .inner-content-part .Service-menu li {
+    position: relative;
+    padding-left: 15px;
+    transition: all 0.5s;
+}
+.rs-portfolio-Detail.about .inner-content-part .Service-menu li:before{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 0;
+    content: "\f0da";
+    font-family: 'FontAwesome';
+    color:#62437e;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.rs-portfolio-Detail .inner-content-part .Service-menu li a:hover{
+    color: #62437e;
+    color: #e86038;
+    margin-left:5px;
+}  
+.rs-portfolio-Detail .inner-content-part .Service-menu li a:hover:before{
+    color: #e86038;
+    left:3px;
+}  
+.rs-portfolio-Detail.part3 .Appointment-table-wrap,
+.rs-portfolio-Detail.part2 .rs-emergency{
+    background: #62437e;
+    background: #522b75;
+    border-radius: 8px;
+}
+.breadcrumbs-inner-part.img2 {
+    background: url(../../images/page-bg.jpg);
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .title-part{
+    /* font-size: 50px; */
+    font-size:45px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #62437e;
+}
+.breadcrumbs-title{
+    margin:20px 0;
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li a,
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li,
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li a:hover{
+    /* color: #9fb338; */
+    color: #62437e;
+    /* font-size: 25px; */
+    font-size:16px;
+    line-height: 51px;
+    /* font-weight: 700; */
+    font-weight: 600;
+    margin-top:0;
+    margin-bottom: 0;
+    /* text-transform: uppercase; */
+    text-transform: none !important;
+    font-family: 'Exo', sans-serif;
+    
+    
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title.normal-breadcrumbs li a, 
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title.normal-breadcrumbs li, 
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title.normal-breadcrumbs li a:hover{
+   
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #624374;
+    font-weight: 600;
+}
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title.normal-breadcrumbs li a:after,
+.breadcrumbs-inner-part .breadcrumbs-inner-bread .breadcrumbs-title li a:after{
+    color: #624374;
+    font-weight: 600;
+}
+.rs-counter-part .rs-counter-list .counter-top .counter-text{
+    line-height: 30px;
+}
+
+.rs-portfolio-Detail.part2 .rs-emergency{
+    
+    background: #522b75;
+}
+.side-part .rs-team-inner-part-find-doctor-part .item-team-part .item-team-inner .normal-text .designation{
+    font-size: 20px;
+}
+.full-width-header.personal-head .rs-header .menu-area.menu-sticky.sticky .rs-menu .nav-menu .current-menu-item > a {
+    color: #62437e;
+}
+.rs-inner-blog-part .main-part .single-content{
+    padding-bottom:40px;
+    padding-top:40px;
+}
+.stylelisting .chevron-right-icon li{
+    text-transform: none;
+}
+.pic-heading{
+    font-size: 20px;
+    font-weight: 600;
+    
+    font-family: 'Exo';
+    line-height: 30px;
+}
+.pic-heading-border{
+    text-align:center;
+    background-color: #f9f8ff;
+    padding:2%;
+
+}
+.image-border{
+    border:1px solid #62437e;
+}
+.rs-portfolio-Detail .order-first img{
+    width:100%;
+}
+.rs-meet-with-doctor-part.part2 .item .team-inner .img-part .text-area .normal-text{
+    background: #62437e;
+    
+}
+.rs-meet-with-doctor-part.part2 .item .team-inner .img-part .text-area{
+    padding-top:40px;
+}
+.readon.white-btn {
+    background: #ffffff;
+    color: #62437e;
+}
+.readon.white-btn:hover {
+    background:#62437e;
+    color: #ffffff;
+}
+.readon.white-btn:hover:after {
+    
+    color: #ffffff;
+}
+.rs-portfolio-Detail.part3 .title-gray{
+    color: #62437e;
+}
+.rs-portfolio-Detail.part3 .inner-images .ps-informations .single-title{
+    color: #522b75;
+    font-size: 25px;
+}
+.rs-contact .contact-wrap .contact-address .detail-content .address-text a, 
+.rs-contact .contact-wrap .contact-address .detail-content .address-text span, 
+.rs-contact .contact-wrap .contact-address .detail-content .address-text .contact-title{
+    color: #292929;
+    word-break: break-word;
+}
+.rs-contact .contact-wrap .contact-address .detail-content .icon-part i{
+    color: #62437e;
+    font-weight: 600;
+}
+.rs-contact .contact-wrap,
+.rs-contact .contact-wrap .contact-address{
+    background: #ffffff;
+    align-items: normal;
+}
+.rs-contact .contact-wrap .contact-address{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.rs-contact .contact-wrap .form-part{
+    padding:0;
+}
+.rs-contact .contact-wrap .form-part{
+    background: #ffffff;
+}
+.rs-contact .contact-wrap .contact-address .detail-content{
+    margin-bottom:22px;
+    align-items: normal;
+}
+.rs-contact .contact-wrap .contact-address .detail-content .icon-part {
+    padding-right: 15px;
+}
+.rs-contact .contact-wrap .contact-address .detail-content .icon-part i:before{
+    font-size: 24px;
+}
+
+.rs-contact-part .home-appointment{
+    background: #ffffff08;
+    padding: 0px 60px 70px;
+    box-shadow: none;
+}
+.rs-appointment .appointment-form .from-control,
+.rs-appointment .appointment-form .select-option select,
+.rs-contact-part .home-appointment .from-control,
+.rs-contact-part .home-appointment .select-option select
+{
+    border: 1px solid #908d8d;
+    color: #000 !important;
+}
+.rs-contact-part .home-appointment textarea {
+    height: 100px;
+}
+.rs-appointment .appointment-form textarea {
+    height: 75px;
+}
+.full-width-header .rs-header .right_menu_togle{
+    padding: 30px 50px;
+}
+.rs-appointment .appointment-form input, .rs-appointment .appointment-form textarea{
+    text-transform: none;
+}
+
+.rs-contact-part .home-appointment .select-option select{
+    z-index:1;
+}
+.rs-inner-blog-part .widget-area .blog-recent-post .recent-post-widget .post-desc .date{
+    font-size: 20px;
+    color: #62437e;
+    font-weight: 600;
+}
+.rs-inner-blog-part .widget-area .blog-recent-post .recent-post-widget .post-desc .date i{
+    font-size: 30px;
+    color: #62437e;
+    vertical-align: sub;
+    padding-right: 10px;
+}
+.rs-inner-blog-part .widget-area{
+    padding:40px;
+    margin-right: 0;
+}
+.rs-department-part .rs-inner-services .department-img .thumimge{
+    background: #522b75;
+}
+.rs-department-part .rs-inner-services .desc-department-part {
+    padding: 50px 20px 20px;
+}
+.rs-department-part .rs-inner-services .desc-department-part .services-part .title{
+    font-size:22px;
+    color: #62437e;
+}
+.home-page .rs-happy-patients-part.style2 .item{
+    padding:40px 50px; 
+}
+
+.testimonial-page .rs-happy-patients-part.style2 .item {
+    background: rgb(208 207 207 / 12%);
+    border-radius: 20px;
+    padding: 30px 50px 30px 60px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 5%);
+    
+}
+.testimonial-page .rs-happy-patients-part .item .content-part .desc-part p{
+    color: #000000;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+.testimonial-page .rs-happy-patients-part.style2 .item .content-part .cl-author .name{
+    color: #62437e;
+    font-size: 18px;
+}
+.testimonial-page .rs-happy-patients-part .item .content-part .desc-part:before{
+    top: 7px;
+    left: -33px;
+    color: #62437e;
+    font-size: 25px;
+}
+.sec-title .title-small{
+    font-weight: 600;
+}
+.rs-contact-part .home-appointment {
+    background: #fafafa;
+    padding: 70px 60px 70px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 19%);
+}
+.sub-main-section li{
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+.rs-footer-inner .footer-section .openingfoot li{
+    padding: 0px 0 12px 0;
+}
+
+
+
+.fixbtn {
+	float: right;
+ 	background-color : #c9e249;
+ 	color: rgb(3, 3, 3);
+    font-weight: bold;
+ 	padding: 4px 7px;
+ 	border-radius: 4px;
+ 	border-color: #06823e;
+	width: 225px;
+}
+
+#mybutton {
+ 	position: fixed;
+ 	bottom: 325px;
+ 	right: 0px;
+ 	z-index: 10000;
+}
+
+
+@media (max-width : 768px) {
+    #mybutton{
+        top: 150px;
+        width: 100%;
+        bottom:auto;
+        z-index: 99;
+        
+    }
+    .fixbtn{
+        width: 200px;
+        
+    }
+
+
+@media (max-width : 600px) {
+    #mybutton{
+        top: 150px;
+        width: 100%;
+        bottom:auto;
+        z-index: 99;
+    }
+    .fixbtn{
+        width: 200px;
+    }
+
+
+    @media (max-width : 475px) {
+        #mybutton{
+            top: 180px;
+            width: 100%;
+            bottom:auto;
+            z-index: 99;
+            
+        }
+        .fixbtn{
+            width: 200px;
+            
+            
+        }

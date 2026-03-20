@@ -1,0 +1,568 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar</title>
+  <style>
+    /* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #082032;
+  color: #fff;
+  position: relative;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.nav-menu .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #1f2e4a;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  z-index: 1000;
+}
+
+.nav-menu .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.nav-menu .dropdown-menu li {
+  position: relative;
+}
+
+.nav-menu .dropdown-menu .dropdown-menu {
+  top: 0;
+  left: 100%;
+}
+
+@media (max-width: 768px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu .dropdown-menu {
+    position: static;
+  }
+
+  .nav-menu .dropdown:hover > .dropdown-menu {
+    display: none;
+  }
+
+  .nav-menu .dropdown.active > .dropdown-menu {
+    display: block;
+  }
+}
+
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const toggleButton = document.querySelector('.toggle-button');
+  const navMenu = document.querySelector('.nav-menu');
+  const dropdowns = document.querySelectorAll('.dropdown');
+
+  toggleButton.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+
+  dropdowns.forEach(dropdown => {
+    dropdown.addEventListener('click', (e) => {
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        dropdown.classList.toggle('active');
+      }
+    });
+  });
+});
+
+  </script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="brand">Cancer Care</a>
+      <button class="toggle-button" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="doctors.html">Doctors Team</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Cancer Surgeries</a>
+          <ul class="dropdown-menu">
+            <li><a href="mouth-cancer.html">Mouth Cancer</a></li>
+            <li><a href="breast-cancer.html">Breast Cancer</a></li>
+            <li><a href="stomach-cancer-treatment.html">Stomach Cancer</a></li>
+            <li><a href="lung-cancer-treatment.html">Lung Cancer</a></li>
+            <li><a href="kidney-cancer-treatment.html">Kidney Cancer</a></li>
+            <li><a href="thyroid-cancer-treatment.html">Thyroid Cancer</a></li>
+            <li><a href="gall-bladder-cancer-treatment.html">Bladder Cancer</a></li>
+            <li><a href="ovarian-cancer-treatment.html">Ovarian Cancer</a></li>
+            <li><a href="cervical-cancer-treatment.html">Cervical Cancer</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Cancer Treatment</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown">
+              <a href="#">Procedures</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown">
+                  <a href="#">Hi - End</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="robotic-cancer-surgery.html">Robotic Treatment</a></li>
+                    <li><a href="lumpectomy.html">Lumpactomy Treatment</a></li>
+                    <li><a href="hipec-treatment.html">Hipec Treatment</a></li>
+                  </ul>
+                </li>
+                <li><a href="laparoscopic-cancer-surgery.html">Laparoscopic Surgery</a></li>
+                <li><a href="plastic-surgery.html">Plastic Surgery</a></li>
+                <li><a href="open-surgery.html">Open Surgery</a></li>
+              </ul>
+            </li>
+            <li><a href="chemotherapy-treatment.html">Chemo Therapy</a></li>
+            <li><a href="radio-therapy-treatment.html">Radiation Therapy</a></li>
+            <li><a href="immuno-therapy.html">Immuno Therapy</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="testimonials.html">Testimonials</a>
+          <ul class="dropdown-menu">
+            <li><a href="patient-testimonials.html">Patient Testimonials</a></li>
+            <li><a href="testimonial-videos.html">Testimonial Videos</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="blogs.html">Blogs</a>
+          <ul class="dropdown-menu">
+            <li><a href="events.html">Events</a></li>
+            <li><a href="medical-camps.html">Medical Camps</a></li>
+          </ul>
+        </li>
+        <li><a href="success-stories.html">Success Stories</a></li>
+        <li><a href="appointment.html">Book Appointment</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar</title>
+  <style>
+    /* Reset and basic styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #f5f7fa;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #1a3c6d 0%, #2a5b9e 100%);
+      color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      transition: color 0.3s ease;
+    }
+
+    .brand:hover {
+      color: #e6f0fa;
+    }
+
+    .toggle-button {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 32px;
+      height: 24px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 1001;
+    }
+
+    .toggle-button .bar {
+      height: 3px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .toggle-button.active .bar:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .toggle-button.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .toggle-button.active .bar:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    .nav-menu {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+    }
+
+    .nav-menu li {
+      position: relative;
+    }
+
+    .nav-menu a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      border-radius: 5px;
+    }
+
+    .nav-menu a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #e6f0fa;
+    }
+
+    .nav-menu .dropdown-menu {
+      display: none;
+      position: absolute;
+      background: #2a5b9e;
+      top: 100%;
+      left: 0;
+      min-width: 220px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      z-index: 1000;
+      overflow: hidden;
+    }
+
+    .nav-menu .dropdown:hover > .dropdown-menu {
+      display: block;
+    }
+
+    .nav-menu .dropdown-menu li {
+      position: relative;
+    }
+
+    .nav-menu .dropdown-menu a {
+      padding: 12px 20px;
+      display: block;
+      font-size: 15px;
+    }
+
+    .nav-menu .dropdown-menu .dropdown-menu {
+      top: 0;
+      left: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+      }
+
+      .brand {
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+
+      .toggle-button {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+
+      .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        background: #2a5b9e;
+        border-radius: 8px;
+        transition: max-height 0.3s ease-in-out;
+      }
+
+      .nav-menu.active {
+        max-height: 1000px;
+        padding: 10px 0;
+      }
+
+      .nav-menu li {
+        width: 100%;
+      }
+
+      .nav-menu a {
+        padding: 15px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0;
+      }
+
+      .nav-menu .dropdown-menu {
+        position: static;
+        background: #1a3c6d;
+        box-shadow: none;
+        border-radius: 0;
+        display: none;
+      }
+
+      .nav-menu .dropdown.active > .dropdown-menu {
+        display: block;
+      }
+
+      .nav-menu .dropdown-menu a {
+        padding-left: 30px;
+      }
+
+      .nav-menu .dropdown-menu .dropdown-menu a {
+        padding-left: 40px;
+      }
+
+      .nav-menu .dropdown-menu .dropdown-menu .dropdown-menu a {
+        padding-left: 50px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .brand {
+        font-size: 20px;
+      }
+
+      .toggle-button {
+        width: 28px;
+        height: 20px;
+      }
+
+      .nav-menu a {
+        font-size: 14px;
+        padding: 12px 20px;
+      }
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggleButton = document.querySelector('.toggle-button');
+      const navMenu = document.querySelector('.nav-menu');
+      const dropdowns = document.querySelectorAll('.dropdown');
+
+      toggleButton.addEventListener('click', () => {
+        toggleButton.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+
+      dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('click', (e) => {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            dropdown.classList.toggle('active');
+          }
+        });
+      });
+
+      // Close mobile menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768 && !navMenu.contains(e.target) && !toggleButton.contains(e.target)) {
+          navMenu.classList.remove('active');
+          toggleButton.classList.remove('active');
+          dropdowns.forEach(dropdown => dropdown.classList.remove('active'));
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="brand">Cancer Care</a>
+      <button class="toggle-button" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="doctors.html">Doctors Team</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Cancer Surgeries</a>
+          <ul class="dropdown-menu">
+            <li><a href="mouth-cancer.html">Mouth Cancer</a></li>
+            <li><a href="breast-cancer.html">Breast Cancer</a></li>
+            <li><a href="stomach-cancer-treatment.html">Stomach Cancer</a></li>
+            <li><a href="lung-cancer-treatment.html">Lung Cancer</a></li>
+            <li><a href="kidney-cancer-treatment.html">Kidney Cancer</a></li>
+            <li><a href="thyroid-cancer-treatment.html">Thyroid Cancer</a></li>
+            <li><a href="gall-bladder-cancer-treatment.html">Bladder Cancer</a></li>
+            <li><a href="ovarian-cancer-treatment.html">Ovarian Cancer</a></li>
+            <li><a href="cervical-cancer-treatment.html">Cervical Cancer</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Cancer Treatment</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown">
+                <a href="#">Procedures</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown">
+                    <a href="#">Hi - End</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="robotic-cancer-surgery.html">Robotic Treatment</a></li>
+                      <li><a href="lumpectomy.html">Lumpactomy Treatment</a></li>
+                      <li><a href="hipec-treatment.html">Hipec Treatment</a></li>
+                    </ul>
+                  </li>
+                <li><a href="laparoscopic-cancer-surgery.html">Laparoscopic Surgery</a></li>
+                <li><a href="plastic-surgery.html">Plastic Surgery</a></li>
+                <li><a href="open-surgery.html">Open Surgery</a></li>
+              </ul>
+            </li>
+            <li><a href="chemotherapy-treatment.html">Chemo Therapy</a></li>
+            <li><a href="radio-therapy-treatment.html">Radiation Therapy</a></li>
+            <li><a href="immuno-therapy.html">Immuno Therapy</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="testimonials.html">Testimonials</a>
+          <ul class="dropdown-menu">
+            <li><a href="patient-testimonials.html">Patient Testimonials</a></li>
+            <li><a href="testimonial-videos.html">Testimonial Videos</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="blogs.html">Blogs</a>
+          <ul class="dropdown-menu">
+            <li><a href="events.html">Events</a></li>
+            <li><a href="medical-camps.html">Medical Camps</a></li>
+          </ul>
+        </li>
+        <li><a href="success-stories.html">Success Stories</a></li>
+        <li><a href="appointment.html">Book Appointment</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
+</html>
