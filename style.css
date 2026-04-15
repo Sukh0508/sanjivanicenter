@@ -837,15 +837,18 @@ a:hover {
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu.left-align-menu {
   padding: 0;
+  /* border: 2px solid green; */
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu {
-  display: inline-block;
+  /* border: 2px solid red; */
+  /* display: inline-block; */
   width: 100%;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu li {
   display: inline-block;
   margin-right: 30px;
   padding: 0;
+  /* border: 2px solid blue; */
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu .nav-menu li a {
   font-size: 16px;

@@ -217,7 +217,7 @@
 								</div>
 								<nav class="rs-menu left-align-menu small-width"
 									style="background-color: rgb(115, 25, 148);">
-									<ul class="nav-menu" style="color: rgb(250, 247, 247);">
+									<ul class="nav-menu" style="color: rgb(250, 247, 247);" id="nav-bar">
 										<li class="logo-item">
 											<a href="index.html">
 												<img src="https://sanjivanicancercentre.com/media/shop-167/sanjivani-cancer-centre/sanjivani-cancer-centre-5b45de.png" alt="logo"
@@ -225,10 +225,22 @@
 											</a>
 										</li>
 										<style>
+											.nav-menu {
+												display: flex;
+												justify-content: space-between;	
+											}
+											.nav-menu li a{
+				
+												white-space: nowrap;
+											}
 											/* Already hiding logo on smaller screens */
 											@media (max-width: 768px) {
 												.logo-item {
 													display: none !important;
+												}
+												.nav-menu {
+													justify-content: center;
+													flex-direction: column;
 												}
 
 
@@ -284,6 +296,7 @@
 												<li><a href="chemotherapy-treatment.html">Chemo Therapy</a></li>
 												<li><a href="radio-therapy-treatment.html">radiation Therapy </a></li>
 												<li><a href="immuno-therapy.html">Immuno Therapy</a></li>
+												<li><a href="cancer-diagnosis.html">Cancer Diagnosis</a></li>
 											</ul>
 										</li>
 
@@ -297,11 +310,15 @@
 
 										<li class="menu-item-has-children" style="margin-top: 15px;"> <a
 												href="blogs.html">Blogs</a>
-											<ul class="sub-menu">
-												<li><a href="events.html">Events</a></li>
-												<li><a href="medical-camps.html">Medical Camps</a></li>
-											</ul>
-										</li>
+											
+												
+												
+											</li>
+											<li class="menu-item-has-children" style="margin-top: 15px;"><a href="events.html">Events</a>
+												<ul class="sub-menu">
+													<li><a href="medical-camps.html">Medical Camps</a></li>
+												</ul>
+											</li>
 
 										<li><a href="contact.html" style="margin-top: 15px;">Contact Us</a></li>
 										<li><a href="tel:+918779475032" style="margin-top: 15px;">Book Appointment</a>
@@ -803,7 +820,7 @@
 	<div class="rs-meet-with-doctor-part sec-bg pt-122 pb-100 md-pt-72 md-pb-50">
 		<div class="container">
 			<div class="sec-title pb-64 md-pb-37">
-				<h3 class="title pb-15">Meet with doctor</h3>
+				<h3 class="title pb-15">Meet our specialist</h3>
 				<div class="desc left-line secondary">
 					At SCC our surgeons specialize in the latest surgical techniques<br>
 					to provide you the best treatment and care.
