@@ -164,6 +164,9 @@
 .img6{
 	background-image: url("https://sanjivanicancercare.com/images/events/20Mar2022MiraBhayanderConf3.jpg");
 }
+.doctor-clg-img::-webkit-scrollbar {
+				display: none;
+			}
 
 /* Tablet */
 @media (max-width:900px){
@@ -1156,6 +1159,31 @@
 			</div>
 		</div>
 	</div>
+		<div class="doctor-clg-img"
+							style="display: flex; overflow-x: scroll; gap: 20px; height: 300px;">
+							<img src="./images/kalpataru hostipital.avif" alt="college" loading="lazy">
+							<img src="./images/dhanwatri hospitial.jpeg" alt="college" loading="lazy">
+							<img src="./images/vashi hospital.webp" alt="college" loading="lazy">
+							<img src="./images/dna-hospital.jpeg" alt="college" loading="lazy">
+							<img src="./images/shri-mahlaxmi-hospital.avif" alt="college" loading="lazy">
+							<img src="./images/vrindavan.webp" alt="college" loading="lazy">
+							<img src="./images/surana sethi hospital.jpg" alt="college" loading="lazy">
+						</div>
+
+							<script>
+		let imgdiv = document.querySelector('.doctor-clg-img');
+		let coutn = 0;
+		function auto() {
+			coutn += 1;
+			if (coutn >= imgdiv.scrollWidth - imgdiv.clientWidth) {
+				coutn = 0;
+
+			}
+			imgdiv.scrollLeft = coutn
+
+		}
+		setInterval(auto, 25);
+	</script>
 
 	<!-- javacsript code for send the data on whatsapp -->
 	<script>
